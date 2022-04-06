@@ -18,5 +18,5 @@ async def on_ready():
           if(filename == "VoiceCommands.py"):
             continue
           client.load_extension(f'cogs.{filename[:-3]}')
-os.environ["TOKEN"] = "NzMwMzEwNjE1OTY4Nzc2MjIz.XwVoww.DFiCvYeLeCEa_7aGXC6DpJTcG60"
+os.environ["TOKEN"] = ""
 client.run(os.getenv("TOKEN"))
